@@ -2,6 +2,8 @@
 
 Desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
 
+Alunos: [Larissa Cristina Bileski](github.com/larissabileski) e [Vinicius Henrique da Silva](github.com/viniihds). 
+
 Links do projeto:
 
 -   [Documentação](github.com/larissabileski/pi-larissaevinicius.git)
