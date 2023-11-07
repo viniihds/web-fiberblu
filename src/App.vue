@@ -1,8 +1,8 @@
 <script setup>
   import LoginComponent from './components/LoginComponent.vue';
-  // import NavbarComponent from './components/NavbarComponent.vue';
+  import HomeComponent from './components/HomeComponent.vue';
 </script>
 
 <template>
-  <div><LoginComponent /></div>
+  <div><HomeComponent /></div>
 </template>

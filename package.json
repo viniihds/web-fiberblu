@@ -10,6 +10,9 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@jamescoyle/vue-icon": "^0.1.2",
+    "@mdi/light-js": "^0.2.63",
+    "@vue-hero-icons/outline": "^1.7.2",
     "@vue-hero-icons/solid": "^1.7.2",
     "axios": "^1.5.0",
     "pinia": "^2.1.6",

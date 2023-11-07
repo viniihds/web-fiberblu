@@ -3,7 +3,7 @@
 
     <div class=" h-full bg-white">
       <div
-        class="g-6 h-full wrap justify-center text-neutral-800 dark:text-neutral-200">
+        class="g-6 h-full wrap justify-center text-neutral-800 dark:text-neutral-200 mt-20">
         <div class="w-full">
           <div>
             <div class="g-0 lg:lg:wrap">
@@ -61,6 +61,7 @@
 
                     <div class="items-center justify-between pb-6 ">
                       <button
+                        
                         type="button"
                         class="text-orange-500 font-semibold">
                         Registrar
