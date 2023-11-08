@@ -1,4 +1,8 @@
+<script setup>
+    import Navbar from '../components/NavbarComponent.vue'
+</script>
 <template>
+<Navbar />
 <div class="space-y-20">
     <div class="flex flex-wrap space-x-48">
         <div>
