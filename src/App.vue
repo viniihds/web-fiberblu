@@ -1,8 +1,7 @@
 <script setup>
-  import LoginComponent from './components/LoginComponent.vue';
-  import HomeComponent from './components/HomeComponent.vue';
+  import EstoqueComponent from './components/EstoqueComponent.vue';
 </script>
 
 <template>
-  <div><HomeComponent /></div>
+  <div><EstoqueComponent /></div>
 </template>
