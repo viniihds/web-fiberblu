@@ -1,7 +1,7 @@
 <script setup>
-  import EstoqueComponent from './components/EstoqueComponent.vue';
+  import AddClienteComponent from './components/AddClienteComponent.vue';
 </script>
 
 <template>
-  <div><EstoqueComponent /></div>
+  <div><AddClienteComponent /></div>
 </template>
