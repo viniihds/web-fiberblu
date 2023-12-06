@@ -1,7 +1,7 @@
 <script setup>
-import EstoqueComponent from './components/EstoqueComponent.vue';
+import HomeComponent from './components/HomeComponent.vue';
 
 </script>
 <template>
-    <EstoqueComponent />
+    <HomeComponent />
 </template>
