@@ -7,4 +7,4 @@ class EstoqueService {
     }
 }
 
-export default new EstoqueService
+export default new EstoqueService();
