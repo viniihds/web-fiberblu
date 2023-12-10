@@ -32,8 +32,8 @@ async function save(){
     inscricao_estadual: "",
     classificacao_fiscal: "",
     categoria: null,}
-    window.location.reload()
-}
+    location.reload()
+  }
 onMounted(async()=>{
     const data = await CategoriaEmpresaService.getAllCategorias()
     categorias.value = data

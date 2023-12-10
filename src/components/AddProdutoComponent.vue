@@ -13,12 +13,12 @@ const grupos = ref([])
 const categorias = ref([])
 const produtos = ref([])
 const currentProduto = ref ({
-    "cor": "",
-    "volume": null,
-    "preco": null,
-    "categoria": null,
-    "linha": null,
-    "grupo": null
+    cor: "",
+    volume: null,
+    preco: null,
+    categoria: null,
+    linha: null,
+    grupo: null
 })
 
 async function save(){
@@ -26,15 +26,14 @@ async function save(){
   const data = await EstoqueService.getAllProdutos()
   produtos.value = data
   currentProduto.value = {
-    cor:'',
+    cor:"",
     volume:null,
     preco: null,
     categoria:null,
     linha:null,
     grupo:null,
     }
-    window.location.reload()
-
+    location.reload()
 }
 onMounted(async()=>{
     const data = await CategoriaProdutoService.getAllCategorias()
