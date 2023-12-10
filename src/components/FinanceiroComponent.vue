@@ -1,5 +1,8 @@
+<script setup>
+import Navbar from './NavbarComponent.vue';
+</script>
 <template>  
-
+<Navbar />
 <div class="flex justify-center my-12">
     <table class="w-2/3 text-sm text-left rtl:text-right bg-green-200">
         <thead class="text-sm  uppercase text-white bg-green-600 border-b">

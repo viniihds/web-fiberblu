@@ -6,7 +6,7 @@ class EstoqueService {
         return response.data
     }
     async saveProduto(produto){
-        const response = await api.post('/produtos', produto)
+        const response = await api.post('/produtos/', produto)
         return response.data
     }
 }

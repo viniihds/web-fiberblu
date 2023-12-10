@@ -16,7 +16,7 @@ const currentCliente = ref ({
   telefone:'',
   inscricao_estadual:'',
   classificacao_fiscal:'',
-  categoria:[],
+  categoria:null,
 })
 
 async function save(){
@@ -24,14 +24,15 @@ async function save(){
   const data = await ClienteService.getAllClientes()
   clientes.value = data
   currentCliente.value = {
-    nome:'',
-    cnpj:'',
-    endereco:'',
-    email:'',
-    telefone:'',
-    inscricao_estadual:'',
-    classificacao_fiscal:'',
-    categoria:[],}
+    nome: "",
+    cnpj: "",
+    endereco: "",
+    email: "",
+    telefone: "",
+    inscricao_estadual: "",
+    classificacao_fiscal: "",
+    categoria: null,}
+    window.location.reload()
 }
 onMounted(async()=>{
     const data = await CategoriaEmpresaService.getAllCategorias()
