@@ -17,7 +17,7 @@
   <div class=" hidden w-full md:flex md:w-auto md:order-1 mr-4" id="navbar-user">
     <ul class="font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:border-gray-700">
       <li>
-        <RouterLink to="/login">
+        <RouterLink to="/">
           <a href="#" class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 text-orange-400" aria-current="page">Sair</a>
         </RouterLink>
       </li>
