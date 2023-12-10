@@ -6,6 +6,8 @@ import Pedidos from '../components/PedidosComponent.vue'
 import AddCliente from '../components/AddClienteComponent.vue'
 import Financeiro from '../components/FinanceiroComponent.vue'
 import Login from '../components/LoginComponent.vue'
+import AddProduto from '../components/AddProdutoComponent.vue'
+
 
 
 
@@ -46,6 +48,11 @@ const router = createRouter({
       path: '/login',
       name: 'login',
       component: Login
+    },
+    {
+      path: '/addproduto',
+      name: 'addproduto',
+      component: AddProduto
     },
   ]
 })

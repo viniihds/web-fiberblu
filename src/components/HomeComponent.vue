@@ -1,18 +1,21 @@
 <script setup>
-    import Navbar from '../components/NavbarComponent.vue'
+    import { RouterLink } from 'vue-router';
+import Navbar from '../components/NavbarComponent.vue'
 </script>
 <template>
 <Navbar />
 <div>
     <div class="flex flex-wrap space-x-40 justify-center">
-        <div>
-            <a href="#" class="my-12 block max-w-sm text-center w-64 h-64 bg-white border rounded-lg  dark:bg-green-200 flex flex-col justify-center content-end grid content">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-36 h-36 text-black">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5m8.25 3v6.75m0 0l-3-3m3 3l3-3M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
-                </svg>
-                <p class="text-orange-400 font-semibold mt-8 mb-2">Novo Produto</p>
-            </a>
-        </div>
+        <RouterLink to="/addproduto">
+            <div>
+                <a href="#" class="my-12 block max-w-sm text-center w-64 h-64 bg-white border rounded-lg  dark:bg-green-200 flex flex-col justify-center content-end grid content">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-36 h-36 text-black">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5m8.25 3v6.75m0 0l-3-3m3 3l3-3M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+                    </svg>
+                    <p class="text-orange-400 font-semibold mt-8 mb-2">Novo Produto</p>
+                </a>
+            </div>
+        </RouterLink>
         <RouterLink to="/addcliente">
             <div>
                 <a href="#" class="my-12 block max-w-sm text-center w-64 h-64 bg-white border rounded-lg  dark:bg-green-200 flex flex-col justify-center content-end grid ">
