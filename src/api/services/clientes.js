@@ -6,6 +6,7 @@ class ClienteService {
         return response.data
     }
     async saveCliente(empresa) {
+        console.log(empresa)
         const response = await api.post('/empresas/', empresa)
         return response.data
     }

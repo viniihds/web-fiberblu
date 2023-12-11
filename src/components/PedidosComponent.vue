@@ -1,7 +1,7 @@
 <script setup>
 import Navbar from '../components/NavbarComponent.vue'
 import { ref, onMounted } from 'vue'
-import PedidoService from '../../api/services/pedidos'
+import PedidoService from '../api/services/pedidos'
 
 const pedidos = ref([])
 
