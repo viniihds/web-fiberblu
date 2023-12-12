@@ -21,7 +21,8 @@ const currentProduto = ref ({
     grupo: null
 })
 
-async function save(){
+async function save(e){
+  e.preventDefault()
   await EstoqueService.saveProduto(currentProduto.value)
   const data = await EstoqueService.getAllProdutos()
   produtos.value = data
@@ -33,6 +34,7 @@ async function save(){
     linha:null,
     grupo:null,
     }
+    location.reload()
 }
 onMounted(async()=>{
     const data = await CategoriaProdutoService.getAllCategorias()

@@ -19,7 +19,8 @@ const currentCliente = ref({
   categoria: null,
 })
 
-async function save() {
+async function save(e) {
+  e.preventDefault()
   await ClienteService.saveCliente(currentCliente.value)
   const data = await ClienteService.getAllClientes()
   clientes.value = data
@@ -33,6 +34,7 @@ async function save() {
     classificacao_fiscal: "",
     categoria: null,
   }
+  location.reload()
 }
 onMounted(async () => {
   const data = await CategoriaEmpresaService.getAllCategorias()
