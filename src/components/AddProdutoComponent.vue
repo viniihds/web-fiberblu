@@ -33,7 +33,6 @@ async function save(){
     linha:null,
     grupo:null,
     }
-    location.reload()
 }
 onMounted(async()=>{
     const data = await CategoriaProdutoService.getAllCategorias()

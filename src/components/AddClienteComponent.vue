@@ -33,7 +33,6 @@ async function save() {
     classificacao_fiscal: "",
     categoria: null,
   }
-  location.reload()
 }
 onMounted(async () => {
   const data = await CategoriaEmpresaService.getAllCategorias()

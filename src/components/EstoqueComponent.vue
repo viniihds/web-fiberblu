@@ -19,7 +19,7 @@ onMounted(async()=>{
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-orange-400">{{ produto.categoria.descricao }}</h5>
           <p class="mb-3 font-normal text-orange-300">{{ produto.cor }}</p>
           <p class="mb-3 font-normal text-orange-300">{{ produto.grupo.descricao }}</p>              
-          <p class="mb-3 font-normal text-orange-300">{{ produto.linha.descricao }}</p>              
+          <p class="mb-3 font-normal text-orange-300">{{ produto.linha.descricao }}</p>      
         </div>
       </div>
     </div>
